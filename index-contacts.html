@@ -1,0 +1,319 @@
+
+<!-- Form Registration-->
+<!-- Flashe mixins--><!DOCTYPE html>
+<html lang="ru-RU">
+  <head>
+    <meta charset="utf-8">
+    <title>Контакты</title><!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE = edge"><![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords" content="">
+    <!-- Favicon-->
+    <link rel="apple-touch-icon" sizes="76x76" href="static/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="static/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="static/favicon/favicon-16x16.png">
+    <link rel="manifest" href="static/favicon/site.webmanifest">
+    <link rel="mask-icon" href="static/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <!-- CSS-->
+    <link rel="stylesheet" type="text/css" href="static/css/main.css"><!--[if lt IE 9]>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.2/html5shiv.min.js"></script><![endif]-->
+  </head>
+  <body class="index-page">
+    <div class="wrapper">
+      <header>
+        <div class="container">
+          <div class="header_wrap">
+            <ul class="header">
+              <li class="header_logo"><a class="header_logo__link" href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="159" height="32" viewBox="0 0 159 32">
+    <g fill="none" fill-rule="nonzero">
+        <ellipse cx="15.829" cy="16" fill="#FFC500" rx="15.829" ry="16"/>
+        <path fill="#000" d="M28.179 10.966h-14.84a.358.358 0 0 1-.356-.36V8.45c0-.198.16-.36.356-.36h14.306a.356.356 0 0 1 .356.274l.534 2.157a.363.363 0 0 1-.069.313.354.354 0 0 1-.287.133zM28.99 17.079V14.92c0-.198-.16-.36-.356-.36H8.714a.715.715 0 0 0-.71.72v7.91c0 .397.318.72.71.72h19.287a.356.356 0 0 0 .356-.274l.533-2.157a.363.363 0 0 0-.068-.313.354.354 0 0 0-.287-.133h-17.33a.358.358 0 0 1-.356-.36v-2.876c0-.199.16-.36.356-.36h17.43a.358.358 0 0 0 .355-.36z"/>
+        <path fill="#FFF" d="M42.795 10.966h12.517a.358.358 0 0 0 .356-.36V8.45c0-.198-.16-.36-.356-.36H41.084c-3.201 0-6.758 2.877-6.758 7.99 0 4.955 3.557 7.831 6.758 7.831h14.228a.358.358 0 0 0 .356-.36v-2.157c0-.198-.16-.36-.356-.36H42.795c-1.711 0-5.624 0-5.624-4.954 0-5.113 3.913-5.113 5.624-5.113zM80.211 16a3.785 3.785 0 0 0 1.779-3.236c0-2.157-1.423-4.674-4.624-4.674H59.225a.715.715 0 0 0-.712.719v14.742c0 .198.16.36.356.36h2.134a.358.358 0 0 0 .356-.36v-6.113H77.01c1.179 0 2.134.966 2.134 2.158v3.955c0 .198.16.36.356.36h2.113a.358.358 0 0 0 .356-.36v-4.258c.02-1.136-.335-2.574-1.758-3.293zm-2.845-1.438H61.359v-3.596h16.007c.982 0 1.778.805 1.778 1.798s-.796 1.798-1.778 1.798zM128.943 14.562H115.07a1.788 1.788 0 0 1-1.778-1.798c0-.993.796-1.798 1.778-1.798h17.074a.358.358 0 0 0 .356-.36V8.45c0-.198-.16-.36-.356-.36h-17.43c-2.357 0-4.268 1.933-4.268 4.315v.72c0 2.382 1.911 4.314 4.269 4.314h13.872c.983 0 1.779.805 1.779 1.798s-.797 1.798-1.779 1.798h-17.074a.358.358 0 0 0-.355.36v2.157c0 .198.159.36.355.36h17.43c2.357 0 4.268-1.933 4.268-4.315v-.72c0-2.382-1.91-4.314-4.268-4.314zM154.554 14.562H140.68a1.788 1.788 0 0 1-1.778-1.798c0-.993.796-1.798 1.778-1.798h17.074a.358.358 0 0 0 .356-.36V8.45c0-.198-.16-.36-.356-.36h-17.43c-2.357 0-4.268 1.933-4.268 4.315v.72c0 2.382 1.911 4.314 4.269 4.314h13.872c.982 0 1.779.805 1.779 1.798s-.797 1.798-1.779 1.798h-17.074a.358.358 0 0 0-.356.36v2.157c0 .198.16.36.356.36h17.43c2.357 0 4.268-1.933 4.268-4.315v-.72c0-2.382-1.91-4.314-4.268-4.314zM102.265 8.09H90.171c-2.947 0-5.335 2.415-5.335 5.393v5.034c0 2.978 2.388 5.393 5.335 5.393h12.094a5.307 5.307 0 0 0 3.773-1.58 5.423 5.423 0 0 0 1.563-3.813v-5.034c0-2.978-2.39-5.393-5.336-5.393zm2.49 10.427c0 1.39-1.115 2.517-2.49 2.517H90.171c-1.375 0-2.49-1.127-2.49-2.517V16.36h17.074v2.157zm0-2.877H87.681v-2.157c0-1.39 1.115-2.517 2.49-2.517h12.094c1.375 0 2.49 1.127 2.49 2.517v2.157z"/>
+    </g>
+</svg>
+</a></li>
+              <li class="header_form">
+                <form class="header_form__this">
+                  <label class="form_search">
+                    <input class="form_search__field" type="search" name="search" placeholder="VIN/Артикул"/>
+                    <button class="form_search__btn">
+                      <svg class="icon icon-search form_search__svg">
+                        <use xlink:href="static/img/svg/symbol/sprite.svg#search"></use>
+                      </svg>
+                    </button>
+                  </label>
+                </form>
+              </li>
+              <li class="header_phone"><a class="header_phone__link" href="">
+                  <svg class="icon icon-mobile header_phone__svg">
+                    <use xlink:href="static/img/svg/symbol/sprite.svg#mobile"></use>
+                  </svg>+38 (097) 123-45-67</a><a class="header_phone__link" href="">
+                  <svg class="icon icon-mobile header_phone__svg">
+                    <use xlink:href="static/img/svg/symbol/sprite.svg#mobile"></use>
+                  </svg>+38 (097) 123-45-67</a></li>
+              <li class="header_info">
+                <div class="nav_info">
+                  <button class="nav_info__item">
+                    <div class="btn_balance trigger">
+                      <svg class="icon icon-balance nav_info__svg">
+                        <use xlink:href="static/img/svg/symbol/sprite.svg#balance"></use>
+                      </svg>
+                    </div><span class="nav_info__this">0</span>
+                  </button>
+                  <button class="nav_info__item">
+                    <div class="btn_bookmark">
+                      <svg class="icon icon-bookmark nav_info__svg">
+                        <use xlink:href="static/img/svg/symbol/sprite.svg#bookmark"></use>
+                      </svg>
+                    </div><span class="nav_info__this">19</span>
+                  </button>
+                  <button class="nav_info__item">
+                    <div class="btn_basket">
+                      <svg class="icon icon-basket nav_info__svg">
+                        <use xlink:href="static/img/svg/symbol/sprite.svg#basket"></use>
+                      </svg>
+                    </div><span class="nav_info__this">0</span>
+                  </button>
+                </div>
+              </li>
+              <li class="header_enter"><a class="header_enter__link" href="#">
+                  <svg class="icon icon-enter header_enter__svg">
+                    <use xlink:href="static/img/svg/symbol/sprite.svg#enter"></use>
+                  </svg><span>Войти</span></a></li>
+              <li class="header_burger">
+                <button id="nav-icon3"><span></span><span></span><span></span><span></span></button>
+              </li>
+            </ul>
+            <div class="nav_wrap">
+              <div class="nav_wrap__this">
+                <ul class="navigation">
+                  <li class="navigation__enter"><a class="header_enter__link" href="#">
+                      <svg class="icon icon-enter header_enter__svg">
+                        <use xlink:href="static/img/svg/symbol/sprite.svg#enter"></use>
+                      </svg><span>Войти</span></a></li>
+                  <li class="navigation__search">
+                    <label class="form_search">
+                      <input class="form_search__field" type="search" name="search" placeholder="VIN/Артикул"/>
+                      <button class="form_search__btn">
+                        <svg class="icon icon-search form_search__svg">
+                          <use xlink:href="static/img/svg/symbol/sprite.svg#search"></use>
+                        </svg>
+                      </button>
+                    </label>
+                  </li>
+                  <li class="navigation__btn">
+                    <div class="nav_info">
+                      <button class="nav_info__item">
+                        <div class="btn_balance trigger">
+                          <svg class="icon icon-balance nav_info__svg">
+                            <use xlink:href="static/img/svg/symbol/sprite.svg#balance"></use>
+                          </svg>
+                        </div><span class="nav_info__this">0</span>
+                      </button>
+                      <button class="nav_info__item">
+                        <div class="btn_bookmark">
+                          <svg class="icon icon-bookmark nav_info__svg">
+                            <use xlink:href="static/img/svg/symbol/sprite.svg#bookmark"></use>
+                          </svg>
+                        </div><span class="nav_info__this">19</span>
+                      </button>
+                      <button class="nav_info__item">
+                        <div class="btn_basket">
+                          <svg class="icon icon-basket nav_info__svg">
+                            <use xlink:href="static/img/svg/symbol/sprite.svg#basket"></use>
+                          </svg>
+                        </div><span class="nav_info__this">0</span>
+                      </button>
+                    </div>
+                  </li>
+                  <li class="navigation__phone"><a class="header_phone__link" href="">
+                      <svg class="icon icon-mobile header_phone__svg">
+                        <use xlink:href="static/img/svg/symbol/sprite.svg#mobile"></use>
+                      </svg>+38 (097) 123-45-67</a><a class="header_phone__link" href="">
+                      <svg class="icon icon-mobile header_phone__svg">
+                        <use xlink:href="static/img/svg/symbol/sprite.svg#mobile"></use>
+                      </svg>+38 (097) 123-45-67</a></li>
+                  <li class="navigation__item"><a class="navigation__link" href="price.html">Новые запчасти</a></li>
+                  <li class="navigation__item"><a class="navigation__link" href="faq.html">Другие товары</a></li>
+                  <li class="navigation__item"><a class="navigation__link" href="news.html">Б/у запчасти</a></li>
+                  <li class="navigation__item"><a class="navigation__link" href="reviews.html">Новости</a></li>
+                  <li class="navigation__item"><a class="navigation__link" href="about.html">О Нас</a></li>
+                  <li class="navigation__item"><a class="navigation__link" href="partnership.html">Контакти</a></li>
+                  <li class="navigation__item"><a class="navigation__link" href="example.html">Гарантия</a></li>
+                  <li class="navigation__item"><a class="navigation__link" href="payment.html">Доставка/Оплата</a></li>
+                </ul>
+              </div>
+              <div class="nav_wrap__btn">
+                <button class="shadow_btn button_yellow">Записаться на СТО</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <div class="content animsition">
+        <div class="global_wrap">
+          <div class="container">
+            <div class="map_main">
+              <div class="map_main__info">
+                <h2 class="global__title">Контакты</h2>
+                <div class="map_info">
+                  <svg class="icon icon-map map_info__svg">
+                    <use xlink:href="static/img/svg/symbol/sprite.svg#map"></use>
+                  </svg>
+                  <p class="map_info__this">Украина г.Хмельницкий <br>ул.Курчатова 8/10</p>
+                </div>
+                <div class="map_phone">
+                  <svg class="icon icon-mobile ">
+                    <use xlink:href="static/img/svg/symbol/sprite.svg#mobile"></use>
+                  </svg>
+                  <ul class="phone_list">
+                    <li class="phone_list__item"><a class="phone_list__link" href="#">+38 (068) 272-23-32</a></li>
+                    <li class="phone_list__item"><a class="phone_list__link" href="#">+38 (063) 272-23-32</a></li>
+                  </ul>
+                </div>
+                <div class="map_mail">
+                  <svg class="icon icon-mail map_mail__svg">
+                    <use xlink:href="static/img/svg/symbol/sprite.svg#mail"></use>
+                  </svg><a class="map_mail__link" href="#">info.ecross@gmail.com</a>
+                </div>
+                <button class="button_yellow">Написать нам</button>
+              </div>
+              <div class="map_main__this">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2817.310234569661!2d26.9457952514106!3d49.439955979247365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473206d79bb7a803%3A0x3c3c983950e820d0!2z0YPQuy4g0JrRg9GA0YfQsNGC0L7QstCwLCA4LCDQpdC80LXQu9GM0L3QuNGG0LrQuNC5LCDQpdC80LXQu9GM0L3QuNGG0LrQsNGPINC-0LHQu9Cw0YHRgtGMLCAyOTAwMA!5e1!3m2!1sru!2sua!4v1534186114349"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer>
+        <div class="container">
+          <ul class="footer">
+            <li class="footer__logo"><a class="footer_logo__link" href="index.html"><svg xmlns="http://www.w3.org/2000/svg" width="159" height="32" viewBox="0 0 159 32">
+    <g fill="none" fill-rule="nonzero">
+        <ellipse cx="15.829" cy="16" fill="#FFC500" rx="15.829" ry="16"/>
+        <path fill="#000" d="M28.179 10.966h-14.84a.358.358 0 0 1-.356-.36V8.45c0-.198.16-.36.356-.36h14.306a.356.356 0 0 1 .356.274l.534 2.157a.363.363 0 0 1-.069.313.354.354 0 0 1-.287.133zM28.99 17.079V14.92c0-.198-.16-.36-.356-.36H8.714a.715.715 0 0 0-.71.72v7.91c0 .397.318.72.71.72h19.287a.356.356 0 0 0 .356-.274l.533-2.157a.363.363 0 0 0-.068-.313.354.354 0 0 0-.287-.133h-17.33a.358.358 0 0 1-.356-.36v-2.876c0-.199.16-.36.356-.36h17.43a.358.358 0 0 0 .355-.36z"/>
+        <path fill="#FFF" d="M42.795 10.966h12.517a.358.358 0 0 0 .356-.36V8.45c0-.198-.16-.36-.356-.36H41.084c-3.201 0-6.758 2.877-6.758 7.99 0 4.955 3.557 7.831 6.758 7.831h14.228a.358.358 0 0 0 .356-.36v-2.157c0-.198-.16-.36-.356-.36H42.795c-1.711 0-5.624 0-5.624-4.954 0-5.113 3.913-5.113 5.624-5.113zM80.211 16a3.785 3.785 0 0 0 1.779-3.236c0-2.157-1.423-4.674-4.624-4.674H59.225a.715.715 0 0 0-.712.719v14.742c0 .198.16.36.356.36h2.134a.358.358 0 0 0 .356-.36v-6.113H77.01c1.179 0 2.134.966 2.134 2.158v3.955c0 .198.16.36.356.36h2.113a.358.358 0 0 0 .356-.36v-4.258c.02-1.136-.335-2.574-1.758-3.293zm-2.845-1.438H61.359v-3.596h16.007c.982 0 1.778.805 1.778 1.798s-.796 1.798-1.778 1.798zM128.943 14.562H115.07a1.788 1.788 0 0 1-1.778-1.798c0-.993.796-1.798 1.778-1.798h17.074a.358.358 0 0 0 .356-.36V8.45c0-.198-.16-.36-.356-.36h-17.43c-2.357 0-4.268 1.933-4.268 4.315v.72c0 2.382 1.911 4.314 4.269 4.314h13.872c.983 0 1.779.805 1.779 1.798s-.797 1.798-1.779 1.798h-17.074a.358.358 0 0 0-.355.36v2.157c0 .198.159.36.355.36h17.43c2.357 0 4.268-1.933 4.268-4.315v-.72c0-2.382-1.91-4.314-4.268-4.314zM154.554 14.562H140.68a1.788 1.788 0 0 1-1.778-1.798c0-.993.796-1.798 1.778-1.798h17.074a.358.358 0 0 0 .356-.36V8.45c0-.198-.16-.36-.356-.36h-17.43c-2.357 0-4.268 1.933-4.268 4.315v.72c0 2.382 1.911 4.314 4.269 4.314h13.872c.982 0 1.779.805 1.779 1.798s-.797 1.798-1.779 1.798h-17.074a.358.358 0 0 0-.356.36v2.157c0 .198.16.36.356.36h17.43c2.357 0 4.268-1.933 4.268-4.315v-.72c0-2.382-1.91-4.314-4.268-4.314zM102.265 8.09H90.171c-2.947 0-5.335 2.415-5.335 5.393v5.034c0 2.978 2.388 5.393 5.335 5.393h12.094a5.307 5.307 0 0 0 3.773-1.58 5.423 5.423 0 0 0 1.563-3.813v-5.034c0-2.978-2.39-5.393-5.336-5.393zm2.49 10.427c0 1.39-1.115 2.517-2.49 2.517H90.171c-1.375 0-2.49-1.127-2.49-2.517V16.36h17.074v2.157zm0-2.877H87.681v-2.157c0-1.39 1.115-2.517 2.49-2.517h12.094c1.375 0 2.49 1.127 2.49 2.517v2.157z"/>
+    </g>
+</svg>
+</a>
+              <p class="footer_address">
+                <svg class="icon icon-map ">
+                  <use xlink:href="static/img/svg/symbol/sprite.svg#map"></use>
+                </svg>Украина г.Хмельницкий <br>ул.Курчатова 8/1
+              </p><a class="footer_phone" href="#">
+                <svg class="icon icon-mobile ">
+                  <use xlink:href="static/img/svg/symbol/sprite.svg#mobile"></use>
+                </svg>+38 (097) 821-89-41</a>
+              <ul class="footer_social">
+                <li class="footer_social__item"><a class="footer_social__link" href="#">
+                    <svg class="icon icon-facebook ">
+                      <use xlink:href="static/img/svg/symbol/sprite.svg#facebook"></use>
+                    </svg></a></li>
+                <li class="footer_social__item"><a class="footer_social__link" href="#">
+                    <svg class="icon icon-viber ">
+                      <use xlink:href="static/img/svg/symbol/sprite.svg#viber"></use>
+                    </svg></a></li>
+                <li class="footer_social__item"><a class="footer_social__link" href="#">
+                    <svg class="icon icon-youtube ">
+                      <use xlink:href="static/img/svg/symbol/sprite.svg#youtube"></use>
+                    </svg></a></li>
+              </ul>
+            </li>
+            <li class="footer__item">
+              <h6 class="footer_title">Информация</h6>
+              <ul class="footer_menu">
+                <li class="footer_menu__item"><a class="footer_menu__link" href="#">Гарантия</a></li>
+                <li class="footer_menu__item"><a class="footer_menu__link" href="#">О Нас</a></li>
+                <li class="footer_menu__item"><a class="footer_menu__link" href="#">Доставка/Оплата</a></li>
+              </ul>
+            </li>
+            <li class="footer__item">
+              <h6 class="footer_title">Поддержка</h6>
+              <ul class="footer_menu">
+                <li class="footer_menu__item"><a class="footer_menu__link" href="#">Контакты</a></li>
+                <li class="footer_menu__item"><a class="footer_menu__link" href="#">Возврат товаров</a></li>
+                <li class="footer_menu__item"><a class="footer_menu__link" href="#">Карта сайта</a></li>
+              </ul>
+            </li>
+            <li class="footer__item">
+              <h6 class="footer_title">Дополнительно</h6>
+              <ul class="footer_menu">
+                <li class="footer_menu__item"><a class="footer_menu__link" href="#">Производители</a></li>
+                <li class="footer_menu__item"><a class="footer_menu__link" href="#">Подарочные сертификаты</a></li>
+                <li class="footer_menu__item"><a class="footer_menu__link" href="#">Партнерская программа</a></li>
+                <li class="footer_menu__item"><a class="footer_menu__link" href="#">Акции</a></li>
+                <li class="footer_menu__item"><a class="footer_menu__link" href="#">Новости</a></li>
+              </ul>
+            </li>
+            <li class="footer__item">
+              <h6 class="footer_title">Личный кабинет</h6>
+              <ul class="footer_menu">
+                <li class="footer_menu__item"><a class="footer_menu__link" href="#">Личный кабинет</a></li>
+                <li class="footer_menu__item"><a class="footer_menu__link" href="#">История заказов</a></li>
+                <li class="footer_menu__item"><a class="footer_menu__link" href="#">Доставка/Оплата</a></li>
+                <li class="footer_menu__item"><a class="footer_menu__link" href="#">Закладки</a></li>
+                <li class="footer_menu__item"><a class="footer_menu__link" href="#">Рассылка</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </footer>
+      <div class="menu_wrap">
+        <ul class="menuGlobal">
+          <li class="menuGlobal__item"><a class="menuGlobal__link animsition-link" href="index.html">1. Index</a></li>
+          <li class="menuGlobal__item"><a class="menuGlobal__link animsition-link" href="index-contacts.html">2. Contacts</a></li>
+          <li class="menuGlobal__item"><a class="menuGlobal__link animsition-link" href="index-recurring.html">3. Recurring Payment</a></li>
+          <li class="menuGlobal__item"><a class="menuGlobal__link animsition-link" href="index-return.html">4. Return</a></li>
+          <li class="menuGlobal__item"><a class="menuGlobal__link animsition-link" href="index-history.html">5. History</a></li>
+          <li class="menuGlobal__item"><a class="menuGlobal__link animsition-link" href="index-bookmarks.html">6. Bookmarks</a></li>
+          <li class="menuGlobal__item"><a class="menuGlobal__link animsition-link" href="index-registration.html">7. Registration</a></li>
+          <li class="menuGlobal__item"><a class="menuGlobal__link animsition-link" href="index-login.html">8. Login</a></li>
+          <li class="menuGlobal__item"><a class="menuGlobal__link animsition-link" href="index-return-form.html">9. Return Form</a></li>
+          <li class="menuGlobal__item"><a class="menuGlobal__link animsition-link" href="index-about-us.html">10. About Us</a></li>
+          <li class="menuGlobal__item"><a class="menuGlobal__link animsition-link" href="index-details.html">11. Details</a></li>
+          <li class="menuGlobal__item"><a class="menuGlobal__link animsition-link" href="index-news.html">12. News</a></li>
+          <li class="menuGlobal__item"><a class="menuGlobal__link animsition-link" href="index-delivery.html">13. Delivery</a></li>
+          <li class="menuGlobal__item"><a class="menuGlobal__link animsition-link" href="index-catalog.html">14. Catalog</a></li>
+        </ul>
+        <div class="menu_click">
+          <button>N</button>
+        </div>
+      </div>
+    </div>
+    <div id="modal">
+      <h2 class="global__title">Обратный звонок</h2>
+      <form class="registration mt-3">
+        <div class="row">
+          <div class="col-12 registration_label">
+            <label>Ваше имя<span class="red_label">*</span></label>
+            <input type="text" name="name"/>
+          </div>
+          <div class="col-12 registration_label">
+            <label>Ваш телефон<span class="red_label">*</span></label>
+            <input class="phone_us" type="tel" name="field-name"/>
+          </div>
+          <div class="col-12 registration_label">
+            <label>Ваш е-mail *<span class="not_label">*</span></label>
+            <input type="email" name="email"/>
+          </div>
+          <div class="col-12">
+            <p class="form_radio__head">Текст сообщения *</p>
+            <textarea data-autoresize></textarea>
+          </div>
+          <div class="col-12 pt-3">
+            <button class="button_yellow">Отправить</button>
+          </div>
+        </div>
+      </form>
+      <button class="close_modal" data-izimodal-close="">
+        <svg class="icon icon-close-circle ">
+          <use xlink:href="static/img/svg/symbol/sprite.svg#close-circle"></use>
+        </svg>
+      </button>
+    </div>
+    <script src="static/js/libs.min.js"></script>
+    <script src="static/js/main.js"></script>
+  </body>
+</html>
